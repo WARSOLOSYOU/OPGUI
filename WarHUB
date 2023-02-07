@@ -1,0 +1,162 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local WarHub = Instance.new("Frame")
+local WarHub_2 = Instance.new("TextLabel")
+local PrimeBoxLOCK = Instance.new("TextButton")
+local NewFPSGUI = Instance.new("TextButton")
+local Resolver = Instance.new("TextButton")
+local AimViewer = Instance.new("TextButton")
+local MovableAnti = Instance.new("TextButton")
+local OPLOCKSGUI = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+WarHub.Name = "War Hub"
+WarHub.Parent = ScreenGui
+WarHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WarHub.Position = UDim2.new(0.219999999, 0, 0.254385948, 0)
+WarHub.Size = UDim2.new(0, 476, 0, 287)
+
+WarHub_2.Name = "War Hub"
+WarHub_2.Parent = WarHub
+WarHub_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WarHub_2.Size = UDim2.new(0, 476, 0, 50)
+WarHub_2.Font = Enum.Font.FredokaOne
+WarHub_2.Text = "WAR HUB"
+WarHub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+WarHub_2.TextScaled = true
+WarHub_2.TextSize = 14.000
+WarHub_2.TextWrapped = true
+
+PrimeBoxLOCK.Name = "Prime Box LOCK"
+PrimeBoxLOCK.Parent = WarHub
+PrimeBoxLOCK.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PrimeBoxLOCK.Position = UDim2.new(0, 0, 0.22996515, 0)
+PrimeBoxLOCK.Size = UDim2.new(0, 168, 0, 50)
+PrimeBoxLOCK.Font = Enum.Font.FredokaOne
+PrimeBoxLOCK.Text = "Prime Box LOCK"
+PrimeBoxLOCK.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrimeBoxLOCK.TextScaled = true
+PrimeBoxLOCK.TextSize = 14.000
+PrimeBoxLOCK.TextWrapped = true
+PrimeBoxLOCK.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/primexs/primexrage/main/imfinnaragewprimexrage")()
+end)
+
+NewFPSGUI.Name = "New FPS GUI"
+NewFPSGUI.Parent = WarHub
+NewFPSGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NewFPSGUI.Position = UDim2.new(0, 0, 0.41114983, 0)
+NewFPSGUI.Size = UDim2.new(0, 168, 0, 50)
+NewFPSGUI.Font = Enum.Font.FredokaOne
+NewFPSGUI.Text = "New FPS GUI"
+NewFPSGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+NewFPSGUI.TextScaled = true
+NewFPSGUI.TextSize = 14.000
+NewFPSGUI.TextWrapped = true
+NewFPSGUI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/WARSOLOSYOU/FPSGUI/main/FPSGUI")()
+end)
+
+Resolver.Name = "Resolver"
+Resolver.Parent = WarHub
+Resolver.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Resolver.Position = UDim2.new(0, 0, 0.585365891, 0)
+Resolver.Size = UDim2.new(0, 168, 0, 50)
+Resolver.Font = Enum.Font.FredokaOne
+Resolver.Text = "Resolver"
+Resolver.TextColor3 = Color3.fromRGB(255, 255, 255)
+Resolver.TextScaled = true
+Resolver.TextSize = 14.000
+Resolver.TextWrapped = true
+Resolver.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/WARSOLOSYOU/Resolver/main/Resolver")()
+end)
+
+AimViewer.Name = "Aim Viewer"
+AimViewer.Parent = WarHub
+AimViewer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AimViewer.Position = UDim2.new(0, 0, 0.759581923, 0)
+AimViewer.Size = UDim2.new(0, 168, 0, 50)
+AimViewer.Font = Enum.Font.FredokaOne
+AimViewer.Text = "Aim Viewer"
+AimViewer.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimViewer.TextScaled = true
+AimViewer.TextSize = 14.000
+AimViewer.TextWrapped = true
+AimViewer.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/WARSOLOSYOU/AimViewer/main/AimViewer")()
+end)
+
+MovableAnti.Name = "Movable Anti"
+MovableAnti.Parent = WarHub
+MovableAnti.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MovableAnti.Position = UDim2.new(0.352941185, 0, 0.22996521, 0)
+MovableAnti.Size = UDim2.new(0, 168, 0, 50)
+MovableAnti.Font = Enum.Font.FredokaOne
+MovableAnti.Text = "AntiLock ( X )"
+MovableAnti.TextColor3 = Color3.fromRGB(255, 255, 255)
+MovableAnti.TextScaled = true
+MovableAnti.TextSize = 14.000
+MovableAnti.TextWrapped = true
+MovableAnti.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/WARSOLOSYOU/MovableAnti/main/MovableAnti")()
+end)
+
+OPLOCKSGUI.Name = "OP LOCKS GUI"
+OPLOCKSGUI.Parent = WarHub
+OPLOCKSGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OPLOCKSGUI.Position = UDim2.new(0.352941185, 0, 0.404181182, 0)
+OPLOCKSGUI.Size = UDim2.new(0, 168, 0, 50)
+OPLOCKSGUI.Font = Enum.Font.FredokaOne
+OPLOCKSGUI.Text = "OP LOCK'S GUI"
+OPLOCKSGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+OPLOCKSGUI.TextScaled = true
+OPLOCKSGUI.TextSize = 14.000
+OPLOCKSGUI.TextWrapped = true
+OPLOCKSGUI.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/silentyuth/streamablegui/main/GUI'))()
+end)
+
+Close.Name = "Close"
+Close.Parent = WarHub
+Close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Close.Position = UDim2.new(0.928571403, 0, 0, 0)
+Close.Size = UDim2.new(0, 34, 0, 50)
+Close.Font = Enum.Font.FredokaOne
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+-- Scripts:
+
+local function UCQUY_fake_script() -- WarHub.LocalScript 
+	local script = Instance.new('LocalScript', WarHub)
+
+	local Login = script.Parent
+	
+	Login.Active = true
+	Login.Draggable = true
+	
+end
+coroutine.wrap(UCQUY_fake_script)()
+local function MAVXWI_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(MAVXWI_fake_script)()
